@@ -248,6 +248,7 @@ cv2.destroyAllWindows()
 
 ### viii)Write and Save the Modified Image
 ```
+import cv2
 img = cv2.imread("wallpaper.jpg")
 img = cv2.resize(img,(300,300))
 cv2.imwrite('sipder_man.jpg',img)
